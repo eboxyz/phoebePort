@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+  .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #fff9e0;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: #e2a5af !important;
+  }
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #e2a5af !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	}
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #e2a5af !important;
+  }
+  .dropdown-menu li a {
+      color: #fff9e0 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: #e2a5af !important;
+  }
+	  body {
+      position: relative; 
+  }
+  
+  #section1 {padding-top:0px;
+  				height:500px;
+ 				color: #fff; 
+				background-image:url(../images/IMG_7642.JPG); 
+				background-attachment:fixed;
+				position: relative;
+  				min-height: 100vh;
+  				width: 100vw;
+ 				box-sizing: border-box;
+  				box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+				transform-style: inherit;
+				}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #fff9e0;}
+  #section3 {padding-top:50px;
+  				height:500px;
+				color: #fff; 
+				background-image:url(../images/IMG_7583.JPG);
+				position: relative;
+  				min-height: 100vh;
+  				width: 100vw;
+				box-sizing: border-box;
+  				box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+				transform-style: inherit;}
+  #section4 {padding-top:50px;height:500px;color: #fff; background-color: #e2a5af;}
+  #section5 {padding-top:50px;height:500px;color: #fff; background-color: #fff; box-sizing: border-box;
+  				box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);}
+  

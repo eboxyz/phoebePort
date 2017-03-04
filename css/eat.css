@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+  box-sizing: border-box;
+  font-family: Avenir;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  font-size: 100%;
+}
+
+.module {
+  clear: both;
+}
+
+
+.imgContainer {
+  width: 400px;
+  margin: 10px;
+}
+
+.imgContainer img {
+  width: 100%;
+}
+
+.intro {
+  width: 100%;
+  margin-left: 25px;
+  margin-right:50px;
+}
+
+.contact-form {
+  height: 500px;
+}
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+.container {
+/*   max-width: 960px; */
+  margin: 0px;
+}
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin: 40px;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  margin:50px;
+}
+section.module.parallax {
+  height: 400px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 4em;
+  line-height: 300px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-7 {
+  background-image:url(../images/homepage3.JPG);
+}
+section.module.parallax-8 {
+  background-image:url(../images/LakeAve.jpg);
+}
+section.module.parallax-9 {
+  background-image:url(../images/homepage3.JPG);
+}
+
+/* Main carousel style */
+
+
+.carousel {
+    width: 500px;
+}
+
+/* Indicators list style */
+.article-slide .carousel-indicators { 
+    bottom: 0;
+    left: 0;
+    margin-left: 0px;
+    width: 100%;
+}
+/* Indicators list style */
+.article-slide .carousel-indicators li {
+    border: medium none;
+    border-radius: 0;
+    float: center;
+    height: auto;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 5px !important;
+    margin-top: 0;
+    width: auto;
+}
+/* Indicators images style */
+.article-slide .carousel-indicators img {
+    border: 2px solid #FFFFFF;
+    float: left;
+    left: 0;
+    width: 100px;
+}
+/* Indicators active image style */
+.article-slide .carousel-indicators .active img {
+    opacity: 0.7;
+}
+
+
+
+
+
+/* @media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 20px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+} */
